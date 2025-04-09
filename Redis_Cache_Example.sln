@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Dist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{17795D1A-ABD4-4CCE-B20B-1584DD8392B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Example.csproj", "{1C57E3F7-E4C2-48E1-874F-293E285B6E23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Publisher.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{091B8EC7-4D97-4A5F-93B0-6DDD72547FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{47422D17-BEDB-4B7C-AEC6-9458E09FBA86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{17795D1A-ABD4-4CCE-B20B-1584DD8392B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17795D1A-ABD4-4CCE-B20B-1584DD8392B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17795D1A-ABD4-4CCE-B20B-1584DD8392B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C57E3F7-E4C2-48E1-874F-293E285B6E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C57E3F7-E4C2-48E1-874F-293E285B6E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C57E3F7-E4C2-48E1-874F-293E285B6E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C57E3F7-E4C2-48E1-874F-293E285B6E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091B8EC7-4D97-4A5F-93B0-6DDD72547FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091B8EC7-4D97-4A5F-93B0-6DDD72547FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091B8EC7-4D97-4A5F-93B0-6DDD72547FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091B8EC7-4D97-4A5F-93B0-6DDD72547FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47422D17-BEDB-4B7C-AEC6-9458E09FBA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47422D17-BEDB-4B7C-AEC6-9458E09FBA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47422D17-BEDB-4B7C-AEC6-9458E09FBA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47422D17-BEDB-4B7C-AEC6-9458E09FBA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
